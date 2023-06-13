@@ -87,7 +87,6 @@ body {
 .card img {
   height: 320px;
   width: 100%;
-  margin: 10px;
   border-radius: 5px;
 }
 
@@ -110,7 +109,7 @@ body {
 .cardB img {
   height: 350px;
   width: 100%;
-  margin: 10px;
+  
   border-radius: 5px;
 }
 
@@ -125,3 +124,59 @@ footer {
   height: 100px;
 }
 
+
+.card_carrinho {
+  width: 80%;
+  display: flex;
+  margin: 1% 1%;
+  margin-left: 100px;
+  padding: 15px;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  color:#080808;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+
+.card_carrinho img{
+  height: 300px;
+  width: 100%;
+  transition: all ease 0.2s;
+  cursor:pointer ;
+  border-color: #393838;
+  border-radius:2px;
+}
+.card_carrinho h1{
+ font-size: 30px;
+ background-color: aliceblue;
+ border-radius: 3px;
+ padding: 5px;
+ margin-right: 10px;
+}
+
+.card_carrinho h2 {
+  margin-left: 20px;
+  font-size: 30px
+}
+.cardE {
+  width: 200px;
+  display: inline-block;
+  margin: 1px;
+  padding: 15px;
+}
+
+.cardE {
+  width: 250px;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+  background-image: radial-gradient(circle at 90.56% -7.92%, #ff3fff 0, #ff41ff 16.67%, #e940ff 33.33%, #b53cf2 50%, #8136db 66.67%, #4c31c6 83.33%, #002db2 100%);;
+  border-radius: 15px;
+}
+
+.cardE img {
+  height: 350px;
+  width: 100%;
+  border-radius: 5px;
+}
