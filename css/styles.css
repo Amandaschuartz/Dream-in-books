@@ -132,15 +132,14 @@ footer {
   margin-left: 100px;
   padding: 15px;
   font-size: 10px;
-  text-align: center;
   align-items: center;
   color:#080808;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   border-radius: 3px;
 }
 
 .card_carrinho img{
-  height: 300px;
+  height: 100%;
   width: 100%;
   transition: all ease 0.2s;
   cursor:pointer ;
@@ -148,16 +147,26 @@ footer {
   border-radius:2px;
 }
 .card_carrinho h1{
- font-size: 30px;
- background-color: aliceblue;
+ font-size: 35px;
+ color: rgb(14, 10, 10);
  border-radius: 3px;
  padding: 5px;
- margin-right: 10px;
+ margin-left: 10px;
+ 
 }
 
 .card_carrinho h2 {
-  margin-left: 20px;
-  font-size: 30px
+  margin-left: 480px;
+  font-size: 30px;
+  color:#000000
+}
+.card_carrinho button{
+  font-size:20px;
+  background-color: #b53cf2;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 60px;
+  cursor: pointer;
 }
 .cardE {
   width: 200px;
@@ -171,7 +180,7 @@ footer {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
-  background-image: radial-gradient(circle at 90.56% -7.92%, #ff3fff 0, #ff41ff 16.67%, #e940ff 33.33%, #b53cf2 50%, #8136db 66.67%, #4c31c6 83.33%, #002db2 100%);;
+  background-color: rgb(30 40 35);
   border-radius: 15px;
 }
 
